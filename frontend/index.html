@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical X-Ray AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Medical X-Ray AI</h1>
+
+        <p class="subtitle">
+            AI-powered X-ray analysis for educational and research purposes
+        </p>
+
+        <div class="upload-box">
+
+            <h2>Upload X-Ray Image</h2>
+
+            <input type="file" id="imageInput" accept="image/*">
+
+            <button id="analyzeButton">
+                Analyze X-Ray
+            </button>
+
+        </div>
+
+        <div id="previewContainer">
+
+            <h2>Selected X-Ray</h2>
+
+            <img id="previewImage" alt="X-Ray Preview">
+
+        </div>
+
+        <div id="loading">
+            Analyzing X-ray...
+        </div>
+
+        <div id="results">
+
+            <h2>Analysis Results</h2>
+
+            <div id="resultList"></div>
+
+        </div>
+
+        <p class="disclaimer">
+            This application is intended for educational and research purposes only.
+            It is not a medical diagnostic tool.
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
